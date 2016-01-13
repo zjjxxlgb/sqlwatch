@@ -1,0 +1,6 @@
+---- mysql_service Matches (5 in 1 files) ----
+Mysqld.cc (sql):int mysql_service(void *p)
+Mysqld.cc (sql):        Service.Init(argv[1], mysql_service);
+Mysqld.cc (sql):  Service.Init(argv[2], mysql_service);
+Mysqld.cc (sql):      Service.Init(MYSQL_SERVICENAME, mysql_service);
+Mysqld.cc (sql):  mysql_service(NULL);
