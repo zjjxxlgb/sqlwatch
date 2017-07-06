@@ -1,4 +1,4 @@
-# easysql
+# SQLWATCH
 A tool can check the sql syntax of mysql and find the tables which been modified.
 
 
