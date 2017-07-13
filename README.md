@@ -8,11 +8,11 @@ A tool can check the sql syntax of mysql and find the tables which been modified
 
 ## SQL语法检查:
 ```Bash
-sqlwatch \<test.sql 2\>&1|grep ERROR
+sqlwatch <test.sql 2>&1|grep ERROR
 ```
 ## SQL变更表识别:
 ```Bash
-sqlwatch \<test.sql 2\>&1|grep dbtablename
+sqlwatch <test.sql 2>&1|grep dbtablename
 ```
 ## 编译安装
 
